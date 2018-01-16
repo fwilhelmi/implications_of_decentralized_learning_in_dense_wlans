@@ -1,0 +1,200 @@
+-----------------------
+Thompson sampling: Throughput Evolution
+-----------------------
+Processing WLAN input...
+ * Executing MABs (Thompson sampling):
+    - n_wlans: 4
+    - channels: 1  2
+    - Tx power levels: 5  20
+    - CCA levels: -42 -82
+Running 1000 iterations of Thompson sampling:
+----------------
+   * WN1:
+       - Primary Channel:2
+       - CCA:-42
+       - TX Power:20
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.66
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 7 (ch=1/cca=-82/tpc=20) = 0.059
+    * Probability of going from 8 (ch=2/cca=-82/tpc=20) to 4 (ch=2/cca=-82/tpc=5) = 0.055
+----------------
+   * WN2:
+       - Primary Channel:1
+       - CCA:-42
+       - TX Power:20
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 5 (ch=1/cca=-42/tpc=20) = 0.371
+    * Probability of going from 7 (ch=1/cca=-82/tpc=20) to 4 (ch=2/cca=-82/tpc=5) = 0.149
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.147
+----------------
+   * WN3:
+       - Primary Channel:1
+       - CCA:-82
+       - TX Power:20
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 5 (ch=1/cca=-42/tpc=20) = 0.549
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.105
+    * Probability of going from 7 (ch=1/cca=-82/tpc=20) to 3 (ch=1/cca=-82/tpc=5) = 0.102
+----------------
+   * WN4:
+       - Primary Channel:2
+       - CCA:-42
+       - TX Power:20
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.679
+    * Probability of going from 8 (ch=2/cca=-82/tpc=20) to 5 (ch=1/cca=-42/tpc=20) = 0.053
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 7 (ch=1/cca=-82/tpc=20) = 0.051
+Mean aggregate throughput in TS: 266.5426
+Mean Std agg. tpt in TS: 14.6328
+Mean fairness in TS: 0.96584
+Mean Prop. fairness in TS: 16.5652
+>> =1/cca=-32/tpc=20) to 6 (ch=2/cca=-32/tpc=20) = 0.02
+Mean aggregate throughput in TS: 519.8707
+Mean Std agg. tpt in TS: 18.0574
+Mean fairness in TS: 0.9792
+Mean Prop. fairness in TS: -Inf
+TEST
+
+ans =
+
+  266.8408
+
+TEST
+
+ans =
+
+  531.2720
+
+TEST
+
+ans =
+
+     0
+
+TEST
+
+ans =
+
+  266.8408
+
+TEST
+
+ans =
+
+  531.2720
+
+TEST
+
+ans =
+
+  399.2560
+
+TEST
+
+ans =
+
+  266.8408
+
+TEST
+
+ans =
+
+  531.2720
+
+TEST
+
+ans =
+
+  266.8408
+
+TEST
+
+ans =
+
+  266.8408
+
+TEST
+
+ans =
+
+  531.2720
+
+TEST
+
+ans =
+
+  399.2560
+
+TEST
+
+ans =
+
+  133.7237
+
+TEST
+
+ans =
+
+  133.7237
+
+TEST
+
+ans =
+
+  133.7237
+
+TEST
+
+ans =
+
+   3.9121e-04
+
+TEST
+
+ans =
+
+    0.0110
+
+Experiment_2_1_TS_individual_reward_case_1
+-----------------------
+Thompson sampling: Throughput Evolution
+-----------------------
+Processing WLAN input...
+ * Executing MABs (Thompson sampling):
+    - n_wlans: 4
+    - channels: 1  2
+    - Tx power levels: 5  20
+    - CCA levels: -42 -82
+Running 1000 iterations of Thompson sampling:
+----------------
+   * WN1:
+       - Primary Channel:2
+       - CCA:-42
+       - TX Power:20
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.66
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 7 (ch=1/cca=-82/tpc=20) = 0.059
+    * Probability of going from 8 (ch=2/cca=-82/tpc=20) to 4 (ch=2/cca=-82/tpc=5) = 0.055
+----------------
+   * WN2:
+       - Primary Channel:1
+       - CCA:-42
+       - TX Power:20
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 5 (ch=1/cca=-42/tpc=20) = 0.371
+    * Probability of going from 7 (ch=1/cca=-82/tpc=20) to 4 (ch=2/cca=-82/tpc=5) = 0.149
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.147
+----------------
+   * WN3:
+       - Primary Channel:1
+       - CCA:-82
+       - TX Power:20
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 5 (ch=1/cca=-42/tpc=20) = 0.549
+    * Probability of going from 5 (ch=1/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.105
+    * Probability of going from 7 (ch=1/cca=-82/tpc=20) to 3 (ch=1/cca=-82/tpc=5) = 0.102
+----------------
+   * WN4:
+       - Primary Channel:2
+       - CCA:-42
+       - TX Power:20
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 6 (ch=2/cca=-42/tpc=20) = 0.679
+    * Probability of going from 8 (ch=2/cca=-82/tpc=20) to 5 (ch=1/cca=-42/tpc=20) = 0.053
+    * Probability of going from 6 (ch=2/cca=-42/tpc=20) to 7 (ch=1/cca=-82/tpc=20) = 0.051
+Mean aggregate throughput in TS: 266.5426
+Mean Std agg. tpt in TS: 14.6328
+Mean fairness in TS: 0.96584
+Mean Prop. fairness in TS: 16.5652
